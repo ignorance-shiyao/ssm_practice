@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+src/
+ssm_dao/src/main/resources/
+ssm_dao/src/test/
+ssm_domain/src/main/resources/
+ssm_domain/src/test/
+ssm_service/src/main/resources/
+ssm_service/src/test/
+ssm_utils/src/
+ssm_web/src/main/resources/
