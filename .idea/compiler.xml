@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ssm_dao (1)" target="1.5" />
       <module name="ssm_web" target="1.5" />
     </bytecodeTargetLevel>
   </component>

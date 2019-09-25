@@ -1,5 +1,6 @@
 package com.learn.ssm.service.impl;
 
+
 import com.learn.ssm.dao.IProductDao;
 import com.learn.ssm.domain.Product;
 import com.learn.ssm.service.IProductService;
@@ -15,7 +16,7 @@ public class ProductServiceImpl implements IProductService {
 
     @Autowired
     private IProductDao productDao;
-    @Autowired
+    @Override
     public List<Product> findAll() throws Exception {
         return productDao.findAll();
     }
